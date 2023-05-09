@@ -1,4 +1,4 @@
-from flask import Flask, render_template, flash
+from flask import Flask, render_template
 from compare_images import compare_images
 from camera import Camera
 app = Flask(__name__)
